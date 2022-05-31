@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springoauth2
+  security:
+    oauth2:
+        resourceserver:
+            jwt:
+                issuer-uri: https://skgnet.auth0.com/
+server:
+  port: 8080
+
+auth0:
+  audience: http://springoauthsecurity
+  
